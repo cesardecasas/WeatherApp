@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+  
+  background-position: center;
+  background-size: cover;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.description{
+  width: 60%;
+  text-align: left;
+  margin-left: 20%;
+  border: 2px black double;
+  padding: 5px;
+  background-color: azure;
+  border-radius: 1.5rem;
+  font-size: 150%;
+  font-weight: 400;
+}
+
+.grid{
+  margin-left: 10%;
+  width: 80%;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projects{
+  width: '80%';
+  margin-left: '20%';
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+}
+
+
+.technologies{
+  margin-top: 2%;
+}
+
+.social{
+  width: 30%;
+  margin-left: 35%;
+  border-radius: 1.5rem;
+}
+
+@media (max-width:480px) {
+  .social{
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 1.5rem;
+  }
+}
+
+@media (min-width:481px) and (max-width:768px){
+  .social{
+    width: 50%;
+    margin-left: 20%;
+    border-radius: 1.5rem;
+  }
+}
+
+/* p{
+  color: white;
+} */
+
+.icon{
+
+  height: 12%;
+  width: 12%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-right: 2%;
+}
+
+.register{
+  font-family: 'Georama', sans-serif;
+  font-weight: bold;
+}
+
+footer{
+  padding-top: 4%;
+}
+
+.expCard{
+  margin: 2%;
+}
+

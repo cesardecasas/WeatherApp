@@ -1,0 +1,47 @@
+#container {
+    color:rgb(250, 250, 250);
+    text-transform: uppercase;
+    font-size:52px;
+    font-weight:bold;
+    width:100%;
+    bottom:65%;
+    display:block;
+  }
+  
+  #flip {
+    height:60px;
+    overflow:hidden;
+  }
+  
+  #flip > div > div {
+    color:#fff;
+    padding:4px 12px;
+    height:65px;
+    margin-bottom:15px;
+    display:inline-block;
+  }
+  
+  #flip div:first-child {
+    animation: show 8s linear infinite alternate-reverse;
+  }
+  
+  #flip div div {
+    background:#b72dcf;
+  }
+  #flip div:first-child div {
+    background:#4ec7f3;
+  }
+  #flip div:last-child div {
+    background:#DC143C;
+  }
+  
+  @keyframes show {
+    0% {margin-top:-270px;}
+    5% {margin-top:-180px;}
+    33% {margin-top:-180px;}
+    38% {margin-top:-90px;}
+    66% {margin-top:-90px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+  }
