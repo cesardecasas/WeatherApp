@@ -39,7 +39,7 @@ const PopMenu = (changeCity) =>{
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button variant="primary" onClick={()=>{changeCity.changeCity(zip); handleClose()}}>Search</Button>
+          <Button variant="dark" onClick={()=>{changeCity.changeCity(zip); handleClose()}}>Search</Button>
         </Modal.Footer>
       </Modal>
     </>

@@ -57,8 +57,10 @@
   grid-template-columns: 1fr 1fr 1fr;
   height: 75vh;
   background-image: url(https://lun-assets.s3.us-west-000.backblazeb2.com/cKm3e2hxXUW0tEY-0hbCnw/X0-dgvhhUkugC65JQtNk1g/Dallas.png);
-  background-repeat: repeat-x;
-  background-size: contain;
+  background-repeat:  no-repeat;
+  background-size: cover;
+  background-position-x: 50%;
+  background-blend-mode: darken;
 }
 
 .txt{
@@ -102,5 +104,12 @@
     display: grid;
     grid-template-rows: 20% 20% auto;
     grid-template-columns: 50% 50%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #switch{
+    padding: 2%;
+    margin: 2%;
   }
 }
